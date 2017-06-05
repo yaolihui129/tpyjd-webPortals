@@ -1,0 +1,214 @@
+.person-zhibo {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #f1f1f1;
+  position: relative;
+}
+.person-zhibo h1 {
+  font-size: 24px;
+  line-height: 80px;
+  padding-left: 30px;
+  color: #212121;
+}
+.person-zhibo a {
+  font-size: 18px;
+  color: #ff7c07;
+  position: absolute;
+  right: 24px;
+  top: 31px;
+}
+.person-zhibo .zhibo-failure {
+  color: #a67e5b;
+}
+.person-zhibo-content {
+  padding: 0 30px;
+}
+.person-zhibo-content .zhibo-man {
+  margin-top: 25px;
+  font-size: 16px;
+  color: #212121;
+}
+.person-zhibo-content .zhibo-time {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #212121;
+}
+.person-zhibo-content .zhibo-text {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #212121;
+}
+.person-zhibo-content .zhibo-text .zhibo-text-content {
+  margin-top: 15px;
+  color: #888888;
+  line-height: 30px;
+}
+.person-business {
+  min-width: 1170px;
+}
+.business-content-right {
+  padding-left: 17.5px;
+}
+.business-content-img {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+.business-content-name {
+  border-bottom: 1px solid #f1f1f1;
+}
+.business-content-name h1 {
+  padding: 0 30px;
+  font-size: 24px;
+  line-height: 35px;
+  color: #212121;
+  padding-top: 30px;
+}
+.business-content-name p {
+  padding: 20px 0;
+}
+.business-content-name p span {
+  padding-left: 30px;
+}
+.business-content-type {
+  padding-bottom: 30px;
+}
+.business-content-type p {
+  padding-top: 20px;
+  padding-left: 30px;
+  font-size: 20px;
+  color: #212121;
+}
+.business-content-type p .business-content-period,
+.business-content-type p .business-content-man {
+  padding-left: 115px;
+}
+.business-content-jindu {
+  padding: 0 30px;
+}
+.business-content-jindu h1 {
+  font-size: 24px;
+  color: #212121;
+  padding: 30px 0;
+}
+.business-content-jindu .jd-head {
+  border-left: 1px solid #0975d1;
+  position: relative;
+  padding-bottom: 10px;
+  -moz-box-sizing: content-box;
+       box-sizing: content-box;
+  padding-left: 47px;
+  margin-left: 20px;
+}
+.business-content-jindu .jd-head i {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: inline-block;
+  position: absolute;
+  left: -20px;
+  top: -10px;
+  background: url(../images/person-jindu1.png) left center no-repeat #FFF;
+  background-size: 100%;
+}
+.business-content-jindu .jd-head p {
+  padding-bottom: 10px;
+}
+.business-content-jindu .jd-head p span {
+  font-size: 20px;
+}
+.business-content-jindu .jd-head p .jd-time {
+  color: #212121;
+}
+.jd-text {
+  padding-bottom: 40px;
+}
+.jd-text li {
+  margin-left: 20px;
+  font-size: 20px;
+  border-left: 1px solid #0975d1;
+  position: relative;
+}
+.jd-text li i {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  background: #0975d1;
+  position: absolute;
+  left: -10px;
+  top: 5px;
+}
+.jd-text li h3 {
+  font-size: 20px;
+  padding-left: 47px;
+  color: #212121;
+}
+.jd-text li p {
+  font-size: 20px;
+  padding-left: 47px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+.jd-text .doing i {
+  background: url(../images/person-gender.png) left center no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  left: -15px;
+  top: 0;
+}
+.jd-text .undo .undo-yuan {
+  border-radius: 100%;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  position: absolute;
+}
+.person-business-name {
+  position: relative;
+}
+.person-business-name h1 {
+  width: 680px;
+}
+.person-business-name p {
+  width: 680px;
+  padding: 20px 30px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.person-business-name a {
+  position: absolute;
+  right: 30px;
+  top: 88px;
+  font-size: 18px;
+  color: #ff7c07;
+}
+.person-business-name .finish {
+  width: 114px;
+  height: 108px;
+  top: 60px;
+  background: url("../images/finish.png") no-repeat;
+}
+.person-business-examine {
+  padding: 20px 30px 30px;
+  position: relative;
+}
+.person-business-examine p {
+  font-size: 16px;
+  color: #212121;
+}
+.person-business-examine p span {
+  padding-right: 40px;
+}
+.person-business-examine a {
+  position: absolute;
+  right: 30px;
+  top: 18px;
+  width: 140px;
+  height: 50px;
+  background: #1878fc;
+  font-size: 18px;
+  color: #f7f7f7;
+  text-align: center;
+  line-height: 50px;
+}

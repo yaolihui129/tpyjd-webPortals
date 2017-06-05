@@ -1,0 +1,199 @@
+/*引用class-begin*/
+.tpy-border {
+  border: 1px solid #ebebeb;
+  background: #FFFFFF;
+}
+.person-breadline {
+  border: 1px solid #ebebeb;
+  background: #FFFFFF;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 20px;
+}
+.person-leftbar {
+  border: 1px solid #ebebeb;
+  background: #FFFFFF;
+  padding: 0;
+}
+.person-leftbar .person-head-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 20px auto;
+}
+.person-leftbar .person-head-img img {
+  width: 100%;
+  min-height: 100%;
+}
+.person-leftbar .person-head-img + p {
+  color: #000000;
+}
+.person-leftbar .person-bar-ul {
+  width: 100%;
+}
+.person-leftbar .person-bar-ul li p,
+.person-leftbar .person-bar-ul li h2 {
+  height: 50px;
+  line-height: 50px;
+  border-top: 1px solid #ebebeb;
+  padding-left: 70px;
+}
+.person-leftbar .person-bar-ul li p a,
+.person-leftbar .person-bar-ul li h2 a {
+  font-size: 18px;
+}
+.person-leftbar .person-bar-ul li p.on {
+  background: url(../images/person-left-icon.png) no-repeat scroll 0px bottom;
+}
+.person-leftbar .person-bar-ul li h2 {
+  font-size: 20px;
+  background: url(../images/person-left-icon.png) no-repeat scroll 30px 14px;
+}
+.person-leftbar .person-bar-ul li .person-bar-active {
+  background-position: 30px -108px;
+}
+.person-leftbar .person-bar-ul li .person-bar-manage {
+  background-position: 30px -224px;
+}
+.prson-rightbox {
+  border: 1px solid #ebebeb;
+  background: #FFFFFF;
+  width: 100%;
+}
+.prson-rightbox .person-row {
+  padding: 40px 20px 20px;
+  position: relative;
+}
+.prson-rightbox .person-row label {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: right;
+  height: 40px;
+  line-height: 40px;
+}
+.prson-rightbox .person-row input[type='text'] {
+  border: 1px solid #e5e5e5;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  cursor: auto;
+}
+.prson-rightbox .person-row input[type=radio] {
+  width: 26px;
+  height: 26px;
+  border: 1px solid #eaeaea;
+  border-radius: 100%;
+  margin-right: 10px;
+  vertical-align: middle;
+  background: #FFF;
+  margin-top: 0;
+}
+.prson-rightbox .person-row input[type=radio]:checked {
+  background: url(../images/person-gender.png) left center no-repeat;
+  background-size: cover;
+  border: 1px solid #2494ff;
+  outline: none;
+}
+.prson-rightbox .person-row .person-tips {
+  font-size: 14px;
+  color: #ff0000;
+  padding-top: 3px;
+}
+.prson-rightbox .person-row .person-head-show {
+  width: 260px;
+  height: 260px;
+  padding: 0;
+  overflow: hidden;
+}
+.prson-rightbox .person-row .person-head-show img {
+  width: 100%;
+  min-height: 100%;
+}
+.prson-rightbox .person-row .person-change-text {
+  position: absolute;
+  top: 195px;
+}
+.prson-rightbox .person-row .person-change-text .person-upload-btn {
+  width: 140px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 19px;
+  text-align: center;
+  border: 1px solid #EAEAEA;
+}
+.prson-rightbox .person-row .person-change-text .person-upload-btn + input[type='file'] {
+  position: absolute;
+  top: 5px;
+  width: 140px;
+  height: 50px;
+  opacity: 0;
+}
+.prson-rightbox .person-change-row {
+  border-top: 1px solid #eaeaea;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.prson-rightbox .person-result-row {
+  border: 1px solid #ebebeb;
+  background: #FFFFFF;
+  padding: 30px 0 20px;
+  margin-bottom: 15px;
+}
+.prson-rightbox .person-result-row .person-result-title {
+  font-size: 20px;
+  color: #212121;
+}
+.prson-rightbox .person-result-row .person-result-title span {
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 1px 10px;
+  margin-right: 15px;
+}
+.prson-rightbox .person-result-row .person-result-percent {
+  position: relative;
+  font-size: 18px;
+}
+.prson-rightbox .person-result-row .person-result-percent span {
+  font-size: 40px;
+  color: #12cb69;
+  position: absolute;
+  top: -15px;
+}
+.prson-rightbox .person-result-row .person-result-ul {
+  width: 100%;
+  overflow: hidden;
+  border-top: 1px solid #f1f1f1;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+.prson-rightbox .person-result-row .person-result-ul li {
+  font-size: 18px;
+  background: url(../images/person-rw.png) 7.5rem 6px no-repeat;
+  background-size: auto 200px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.prson-rightbox .person-result-row .person-result-ul li.no-match {
+  background-position: 7.5rem -90px;
+  color: #ff7132;
+  background-size: auto 200px;
+}
+.prson-rightbox .person-result-row .person-result-ul li.no-match2 {
+  background-position: 7.5rem -170px;
+  color: #ffae3b;
+  background-size: auto 200px;
+}
+.prson-rightbox .person-result-row:first-child .person-result-title span {
+  background: #2494ff;
+}
+.prson-rightbox .person-result-row:nth-child(2) .person-result-title span {
+  background: #12cb69;
+}
+.prson-rightbox .person-result-row:last-child .person-result-title span {
+  background: #717171;
+}
+.person-rightbox-result {
+  border: 0;
+  background: none;
+}

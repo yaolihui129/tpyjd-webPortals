@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.alert_bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.1);
+}
+.alert_box {
+  width: 306px;
+  /*    height: 165px;*/
+  position: fixed;
+  left: 50%;
+  top: 200px;
+  margin-left: -153px;
+  margin-top: -82.5px;
+  border-radius: 5px;
+  z-index: 1001;
+  background: #fff;
+  color: #fff;
+  overflow: hidden;
+}
+.alert_msg {
+  background: #fff;
+  /*    height: 120px;*/
+  width: 300px;
+  padding-bottom: 36px;
+}
+.alert_msg1 {
+  text-align: center;
+  font-size: 15px;
+  line-height: 18px;
+  padding-top: 30px;
+  color: #616161;
+}
+.alert_msg2 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 15px;
+  color: #616161;
+  padding-bottom: 15px;
+}
+.alert_btn {
+  border-top: 1px solid #eaeaea;
+  height: 44px;
+  line-height: 44px;
+  color: #616161;
+  text-align: center;
+  display: -webkit-box;
+  font-size: 15px;
+}
+.alert_btn > div {
+  -webkit-box-flex: 1;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+.alert_btn > div:nth-child(1) {
+  border-right: 1px solid #eaeaea;
+}
+.alert_btn > div:nth-child(2) {
+  color: #0e89fc;
+}
+.alert_btn.hover {
+  background: #f00;
+}
+.mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+  z-index: 1000;
+  background: #000;
+}
